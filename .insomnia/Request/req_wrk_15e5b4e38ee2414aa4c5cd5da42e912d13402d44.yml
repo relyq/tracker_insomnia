@@ -1,0 +1,33 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d13402d44
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165853
+created: 1668096165853
+url: "{{ base_url }}/api/Comments"
+name: /api/Comments
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "ticketId": 0,
+      "authorId": "string",
+      "parentId": 0,
+      "content": "string",
+      "created": "2022-11-10T16:02:45.397Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

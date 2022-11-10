@@ -1,0 +1,25 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d1a91340f
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165438
+created: 1668096165438
+url: "{{ base_url }}/api/Types/{{ id }}"
+name: /api/Types/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '"string"'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

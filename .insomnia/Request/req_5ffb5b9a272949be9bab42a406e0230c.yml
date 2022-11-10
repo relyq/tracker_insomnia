@@ -1,0 +1,25 @@
+_id: req_5ffb5b9a272949be9bab42a406e0230c
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1665838992814
+created: 1665837640286
+url: "{{ _.baseUrl }}types"
+name: types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_5ea59f9e0e8e4d118eea9906ba8cc7b9',
+    'b64::JC5qd3Q=::46b', 'always', 60 %}"
+metaSortKey: -1665837640286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

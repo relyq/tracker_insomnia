@@ -1,0 +1,21 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d095957c1
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165433
+created: 1668096165433
+url: "{{ base_url }}/api/Types/{{ id }}"
+name: /api/Types/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668096165433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

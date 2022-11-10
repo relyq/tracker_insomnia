@@ -1,0 +1,31 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d1da4bfc6
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165425
+created: 1668096165425
+url: "{{ base_url }}/api/Users"
+name: /api/Users
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "string",
+      "password": "string",
+      "organizationId": "string",
+      "role": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

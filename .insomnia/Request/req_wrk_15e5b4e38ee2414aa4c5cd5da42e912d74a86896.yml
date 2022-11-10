@@ -1,0 +1,25 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d74a86896
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165496
+created: 1668096165496
+url: "{{ base_url }}/api/Roles/{{ id }}"
+name: /api/Roles/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '"string"'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165496
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

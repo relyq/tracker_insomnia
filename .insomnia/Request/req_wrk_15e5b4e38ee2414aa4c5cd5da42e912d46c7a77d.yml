@@ -1,0 +1,21 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d46c7a77d
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165459
+created: 1668096165459
+url: "{{ base_url }}/api/Tickets/{{ id }}/Comments"
+name: /api/Tickets/{id}/Comments
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668096165459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

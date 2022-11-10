@@ -1,0 +1,21 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d6080a0ca
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165648
+created: 1668096165648
+url: "{{ base_url }}/api/Projects/{{ id }}/Tickets"
+name: /api/Projects/{id}/Tickets
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668096165648
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

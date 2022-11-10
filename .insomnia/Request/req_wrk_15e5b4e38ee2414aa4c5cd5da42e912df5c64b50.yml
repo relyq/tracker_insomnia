@@ -1,0 +1,21 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912df5c64b50
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165644
+created: 1668096165644
+url: "{{ base_url }}/api/Projects/{{ id }}"
+name: /api/Projects/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668096165644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

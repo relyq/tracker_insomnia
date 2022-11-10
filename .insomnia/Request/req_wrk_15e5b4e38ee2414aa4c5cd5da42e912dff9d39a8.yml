@@ -1,0 +1,21 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912dff9d39a8
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165462
+created: 1668096165462
+url: "{{ base_url }}/api/Tickets/{{ id }}"
+name: /api/Tickets/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668096165462
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

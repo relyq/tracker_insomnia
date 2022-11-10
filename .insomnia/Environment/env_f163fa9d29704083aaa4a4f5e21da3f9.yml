@@ -1,0 +1,18 @@
+_id: env_f163fa9d29704083aaa4a4f5e21da3f9
+type: Environment
+parentId: env_c9c1e3c1ff252c45842dada90eee8f5085309948
+modified: 1668095523622
+created: 1664719890973
+name: Tracker
+data:
+  baseUrl: https://localhost:7004/api/
+  email: relyqx@gmail.com
+  password: mSS/P8WT-Y9SK9m
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - email
+    - password
+color: null
+isPrivate: false
+metaSortKey: 1664719890973

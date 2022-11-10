@@ -1,0 +1,39 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d64ef95e2
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165455
+created: 1668096165455
+url: "{{ base_url }}/api/Tickets"
+name: /api/Tickets
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "projectId": 0,
+      "title": "string",
+      "description": "string",
+      "priority": 0,
+      "type": "string",
+      "status": "string",
+      "submitterId": "string",
+      "assigneeId": "string",
+      "created": "2022-11-10T16:02:45.399Z",
+      "activity": "2022-11-10T16:02:45.399Z",
+      "closed": "2022-11-10T16:02:45.399Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

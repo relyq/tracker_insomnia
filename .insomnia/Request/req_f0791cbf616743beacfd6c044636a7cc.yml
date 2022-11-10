@@ -1,0 +1,25 @@
+_id: req_f0791cbf616743beacfd6c044636a7cc
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1664870713387
+created: 1664870289360
+url: "{{ _.baseUrl }}roles"
+name: roles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_5ea59f9e0e8e4d118eea9906ba8cc7b9',
+    'b64::JC5qd3Q=::46b', 'always', 60 %}"
+metaSortKey: -1664870289360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

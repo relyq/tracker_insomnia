@@ -1,0 +1,32 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d403985e9
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165652
+created: 1668096165652
+url: "{{ base_url }}/api/Projects"
+name: /api/Projects
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "authorId": "string",
+      "name": "string",
+      "description": "string",
+      "created": "2022-11-10T16:02:45.398Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165652
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

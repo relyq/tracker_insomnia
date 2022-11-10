@@ -1,0 +1,30 @@
+_id: req_wrk_15e5b4e38ee2414aa4c5cd5da42e912d473efcfc
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1668096165740
+created: 1668096165740
+url: "{{ base_url }}/api/Organizations/{{ id }}"
+name: /api/Organizations/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "string",
+      "name": "string",
+      "created": "2022-11-10T16:02:45.397Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668096165740
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

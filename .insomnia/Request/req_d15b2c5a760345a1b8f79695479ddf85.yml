@@ -1,0 +1,25 @@
+_id: req_d15b2c5a760345a1b8f79695479ddf85
+type: Request
+parentId: wrk_15e5b4e38ee2414aa4c5cd5da42e912d
+modified: 1665839033749
+created: 1665838995408
+url: "{{ _.baseUrl }}statuses"
+name: statuses
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_5ea59f9e0e8e4d118eea9906ba8cc7b9',
+    'b64::JC5qd3Q=::46b', 'always', 60 %}"
+metaSortKey: -1665838995408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
